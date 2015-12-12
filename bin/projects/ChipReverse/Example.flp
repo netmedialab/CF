@@ -1,0 +1,16 @@
+ProjectType=ReverseChip
+Author=ming
+Classifier=0.0=ChipImage
+File=0.0.0=chip.jpg
+File=0.0.1=chip2.jpg
+File=0.0.2=..\..\..\..\Chip Image\1-Top Layer 이미지(1000배).jpg
+Classifier=0.1=ChipSchematic
+File=0.1.0=t1.cpsc
+File=0.1.1=test.cpsc
+Classifier=0.2=ChipSymbol
+File=0.2.0=ID_SYMBOL0.cpsy
+File=0.2.1=aa.cpsy
+Classifier=0.3=CircuitSchematic
+Classifier=0.4=CircuitSymbol
+File=0.4.0=test1.v
+File=0.4.1=test2.v

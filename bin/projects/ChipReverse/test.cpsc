@@ -1,0 +1,189 @@
+[Layer]
+[Common]
+ID=ID_LAYER0
+Name=MET5
+[Background]
+[SolidColorBackground]
+Filled Color=white
+[/SolidColorBackground]
+[/Background]
+[/Common]
+[Elements]
+[/Elements]
+[/Layer]
+[Layer]
+[Common]
+ID=ID_LAYER1
+Name=VIA4
+[Background]
+[SolidColorBackground]
+Filled Color=white
+[/SolidColorBackground]
+[/Background]
+[/Common]
+[Elements]
+[/Elements]
+[/Layer]
+[Layer]
+[Common]
+ID=ID_LAYER2
+Name=MET4
+[Background]
+[SolidColorBackground]
+Filled Color=white
+[/SolidColorBackground]
+[/Background]
+[/Common]
+[Elements]
+[/Elements]
+[/Layer]
+[Layer]
+[Common]
+ID=ID_LAYER3
+Name=VIA3
+[Background]
+[SolidColorBackground]
+Filled Color=white
+[/SolidColorBackground]
+[/Background]
+[/Common]
+[Elements]
+[/Elements]
+[/Layer]
+[Layer]
+[Common]
+ID=ID_LAYER4
+Name=MET3
+[Background]
+[SolidColorBackground]
+Filled Color=white
+[/SolidColorBackground]
+[/Background]
+[/Common]
+[Elements]
+[/Elements]
+[/Layer]
+[Layer]
+[Common]
+ID=ID_LAYER5
+Name=VIA2
+[Background]
+[SolidColorBackground]
+Filled Color=white
+[/SolidColorBackground]
+[/Background]
+[/Common]
+[Elements]
+[/Elements]
+[/Layer]
+[Layer]
+[Common]
+ID=ID_LAYER6
+Name=MET2
+[Background]
+[SolidColorBackground]
+Filled Color=white
+[/SolidColorBackground]
+[/Background]
+[/Common]
+[Elements]
+[/Elements]
+[/Layer]
+[Layer]
+[Common]
+ID=ID_LAYER7
+Name=VIA1
+[Background]
+[SolidColorBackground]
+Filled Color=white
+[/SolidColorBackground]
+[/Background]
+[/Common]
+[Elements]
+[/Elements]
+[/Layer]
+[Layer]
+[Common]
+ID=ID_LAYER8
+Name=MET1
+[Background]
+[SolidColorBackground]
+Filled Color=white
+[/SolidColorBackground]
+[/Background]
+[/Common]
+[Elements]
+[/Elements]
+[/Layer]
+[Layer]
+[Common]
+ID=ID_LAYER9
+Name=CONT
+[Background]
+[SolidColorBackground]
+Filled Color=white
+[/SolidColorBackground]
+[/Background]
+[/Common]
+[Elements]
+[/Elements]
+[/Layer]
+[Layer]
+[Common]
+ID=ID_LAYER10
+Name=POLY
+[Background]
+[SolidColorBackground]
+Filled Color=white
+[/SolidColorBackground]
+[/Background]
+[/Common]
+[Elements]
+[/Elements]
+[/Layer]
+[Layer]
+[Common]
+ID=ID_LAYER11
+Name=DIFF
+[Background]
+[Image]
+ID=ID_IMAGE0
+Name=E:\CircuitFinder\new\bin\projects\ChipReverse\chip.jpg
+[/Image]
+[/Background]
+[/Common]
+[Elements]
+[Port]
+[Common]
+ID=ID_PORT0
+Name=ID_PORT0
+Direction=Input
+[/Common]
+[InputPort]
+X Pos=310
+Y Pos=110
+Width=140
+Height=90
+Line Color=blue
+Filled Color=rgba(0, 0, 0, 0.000)
+Line Width=3
+[/InputPort]
+[/Port]
+[Port]
+[Common]
+ID=ID_PORT1
+Name=ID_PORT0_Copy
+Direction=Input
+[/Common]
+[InputPort]
+X Pos=590
+Y Pos=230
+Width=140
+Height=90
+Line Color=blue
+Filled Color=rgba(0, 0, 0, 0.000)
+Line Width=3
+[/InputPort]
+[/Port]
+[/Elements]
+[/Layer]

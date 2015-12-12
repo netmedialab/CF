@@ -1,0 +1,9 @@
+ProjectType=Verilog
+Author=ihpark
+Classifier=0.0=Data
+Classifier=0.1=Include
+Classifier=0.2=Script
+File=0.2.0=gcd_rtl_tb.sh
+Classifier=0.3=Verilog
+File=0.3.0=gcd_rtl.v
+File=0.3.1=gcd_rtl_tb.v

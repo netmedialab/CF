@@ -1,0 +1,1 @@
+winrar a cf_test_%date:~0,4%%date:~5,2%%date:~8,2%.zip res doc projects CircuitFinder.exe *.dll CircuitFinder.reg

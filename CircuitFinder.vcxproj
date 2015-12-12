@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\CfParameterDialogCtrl.h" />
+    <ClInclude Include="src\ChipEditorBaseCtrl.h" />
+    <ClInclude Include="src\ChipSymbolEditorCtrl.h" />
+    <ClInclude Include="src\DrawingElementGroup.h" />
+    <ClInclude Include="src\Grid.h" />
+    <ClInclude Include="src\HighlightElementList.h" />
+    <ClInclude Include="src\IElement.h" />
+    <ClInclude Include="src\Instance.h" />
+    <ClInclude Include="src\NewFileInitializer.h" />
+    <ClInclude Include="src\Parameter.h" />
+    <ClInclude Include="src\SolidColorBackground.h" />
+    <ClInclude Include="src\CfAboutDialogCtrl.h" />
+    <ClInclude Include="src\CfDialogBaseCtrl.h" />
+    <ClInclude Include="src\CfSettingDialogCtrl.h" />
+    <ClInclude Include="src\FileTypeManager.h" />
+    <ClInclude Include="src\LayerListViewCtrl.h" />
+    <ClInclude Include="src\NewFileDialogCtrl.h" />
+    <ClInclude Include="src\NewProjectDialogCtrl.h" />
+    <ClInclude Include="src\ProjectTypeManager.h" />
+    <ClInclude Include="src\CfUtils.h" />
+    <ClInclude Include="src\ChipSchematicEditorCtrl.h" />
+    <ClInclude Include="src\History.h" />
+    <ClInclude Include="src\IAction.h" />
+    <ClInclude Include="src\Layer.h" />
+    <ClInclude Include="src\LayerViewCtrl.h" />
+    <ClInclude Include="src\Panel.h" />
+    <ClInclude Include="src\DrawingElement.h" />
+    <ClInclude Include="src\DrawingElementFactory.h" />
+    <ClInclude Include="src\IDrawable.h" />
+    <ClInclude Include="src\Image.h" />
+    <ClInclude Include="src\LoadProjectEventListener.h" />
+    <ClInclude Include="src\ParseUtil.h" />
+    <ClInclude Include="src\PropertyGridCtrl.h" />
+    <ClInclude Include="src\FileEditorBase.h" />
+    <ClInclude Include="src\FileReaderManager.h" />
+    <ClInclude Include="src\ImageEditorCtrl.h" />
+    <ClInclude Include="src\LogMessageCtrl.h" />
+    <ClInclude Include="src\Notification.h" />
+    <ClInclude Include="src\Project.h" />
+    <ClInclude Include="src\IProperty.h" />
+    <ClInclude Include="src\SaveSymbolFileDialogCtrl.h" />
+    <ClInclude Include="src\Shape.h" />
+    <ClInclude Include="src\Symbol.h" />
+    <ClInclude Include="src\TextEditorCtrl.h" />
+    <ClInclude Include="src\Workspace.h" />
+    <ClInclude Include="src\CfDefines.h" />
+    <ClInclude Include="src\defsext.h" />
+    <ClInclude Include="src\EnvironmentUtil.h" />
+    <ClInclude Include="src\FileNoteBookCtrl.h" />
+    <ClInclude Include="src\FileUtil.h" />
+    <ClInclude Include="src\Port.h" />
+    <ClInclude Include="src\prefs.h" />
+    <ClInclude Include="src\ResourceUtil.h" />
+    <ClInclude Include="src\CircuitFinderFrame.h" />
+    <ClInclude Include="src\StringUtil.h" />
+    <ClInclude Include="src\systemimagelist.h" />
+    <ClInclude Include="src\WorkspaceExplorerCtrl.h" />
+    <ClInclude Include="src\CfWx.h" />
+    <ClInclude Include="src\Wire.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\CfAboutDialogCtrl.cpp" />
+    <ClCompile Include="src\CfDialogBaseCtrl.cpp" />
+    <ClCompile Include="src\CfParameterDialogCtrl.cpp" />
+    <ClCompile Include="src\CfSettingDialogCtrl.cpp" />
+    <ClCompile Include="src\ChipEditorBaseCtrl.cpp" />
+    <ClCompile Include="src\ChipSymbolEditorCtrl.cpp" />
+    <ClCompile Include="src\DrawingElementGroup.cpp" />
+    <ClCompile Include="src\FileTypeManager.cpp" />
+    <ClCompile Include="src\Grid.cpp" />
+    <ClCompile Include="src\HighlightElementList.cpp" />
+    <ClCompile Include="src\Instance.cpp" />
+    <ClCompile Include="src\LayerListViewCtrl.cpp" />
+    <ClCompile Include="src\NewFileDialogCtrl.cpp" />
+    <ClCompile Include="src\NewFileInitializer.cpp" />
+    <ClCompile Include="src\NewProjectDialogCtrl.cpp" />
+    <ClCompile Include="src\History.cpp" />
+    <ClCompile Include="src\IAction.cpp" />
+    <ClCompile Include="src\Layer.cpp" />
+    <ClCompile Include="src\LayerViewCtrl.cpp" />
+    <ClCompile Include="src\Parameter.cpp" />
+    <ClCompile Include="src\ProjectTypeManager.cpp" />
+    <ClCompile Include="src\CfUtils.cpp" />
+    <ClCompile Include="src\ChipSchematicEditorCtrl.cpp" />
+    <ClCompile Include="src\Panel.cpp" />
+    <ClCompile Include="src\DrawingElement.cpp" />
+    <ClCompile Include="src\DrawingElementFactory.cpp" />
+    <ClCompile Include="src\Image.cpp" />
+    <ClCompile Include="src\ParseUtil.cpp" />
+    <ClCompile Include="src\PropertyGridCtrl.cpp" />
+    <ClCompile Include="src\FileEditorBase.cpp" />
+    <ClCompile Include="src\FileReaderManager.cpp" />
+    <ClCompile Include="src\ImageEditorCtrl.cpp" />
+    <ClCompile Include="src\Notification.cpp" />
+    <ClCompile Include="src\Project.cpp" />
+    <ClCompile Include="src\IProperty.cpp" />
+    <ClCompile Include="src\SaveSymbolFileDialogCtrl.cpp" />
+    <ClCompile Include="src\Shape.cpp" />
+    <ClCompile Include="src\SolidColorBackground.cpp" />
+    <ClCompile Include="src\Symbol.cpp" />
+    <ClCompile Include="src\TextEditorCtrl.cpp" />
+    <ClCompile Include="src\Workspace.cpp" />
+    <ClCompile Include="src\EnvironmentUtil.cpp" />
+    <ClCompile Include="src\FileNotebookCtrl.cpp" />
+    <ClCompile Include="src\FileUtil.cpp" />
+    <ClCompile Include="src\LogMessageCtrl.cpp" />
+    <ClCompile Include="src\Port.cpp" />
+    <ClCompile Include="src\prefs.cpp" />
+    <ClCompile Include="src\ResourceUtil.cpp" />
+    <ClCompile Include="src\CircuitFinderFrame.cpp" />
+    <ClCompile Include="src\StringUtil.cpp" />
+    <ClCompile Include="src\systemimagelist.cpp" />
+    <ClCompile Include="src\WorkspaceExplorerCtrl.cpp" />
+    <ClCompile Include="src\Wire.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EA6E2670-16EB-4EE4-BBCD-698C537F3771}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>CircuitFinder</RootNamespace>
+    <ProjectName>CircuitFinder</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="CircuitFinderProperty.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="CircuitFinderProperty.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\include;.\src\find_in_files;.\src;$(wxWidgetsDir)\include;$(wxWidgetsDir)\include\msvc;$(wxWidgetsDir)\lib\vc_lib\mswud;$(wxWidgetsDir)\src\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(wxWidgetsDir)\lib\vc_lib;..\lib;.\lib\debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wxmsw30ud_core.lib;wxbase30ud.lib;wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxzlibd.lib;wxregexud.lib;wxexpatd.lib;winmm.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;wininet.lib;opencv_core2410d.lib;opencv_imgproc2410d.lib;opencv_highgui2410d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\include;.\src\find_in_files;.\src;$(wxWidgetsDir)\include;$(wxWidgetsDir)\include\msvc;$(wxWidgetsDir)\lib\vc_lib\mswu;$(wxWidgetsDir)\src\jpeg;$(OpenCVDir)\build\include;$(OpenCVDir)\build\include\opencv;$(OpenCVDir)\build\include\opencv2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(wxWidgetsDir)\lib\vc_lib;..\lib;..\lib\release;$(OpenCVDir)\build\x86\cv10\lib;$(OpenCVDir)\build\x86\vc10\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wxmsw30u_core.lib;wxbase30u.lib;wxtiff.lib;wxjpeg.lib;wxpng.lib;wxzlib.lib;wxregexu.lib;wxexpat.lib;winmm.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;wininet.lib;opencv_core2410.lib;opencv_imgproc2410.lib;opencv_highgui2410.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
